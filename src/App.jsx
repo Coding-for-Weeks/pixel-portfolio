@@ -16,7 +16,7 @@ function ScrollToHash() {
 
   useEffect(() => {
     if (hash) {
-      const id = hash.replace("#", "");
+      const id = hash.substring(hash.lastIndexOf("#") + 1);
       const el = document.getElementById(id);
       if (el) {
         el.scrollIntoView({ behavior: "smooth" });
