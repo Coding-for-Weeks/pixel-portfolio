@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="bg-gray-950 text-purple-300 font-pixel text-xs md:text-sm px-6 py-4 fixed top-0 w-full z-50 shadow-md border-b border-purple-600">
       <ul className="flex justify-center gap-6">
         <li>
-          <a href="/#hero" className="hover:text-white transition">🧙 Hero</a>
+          <a href="#hero" className="hover:text-white transition">🧙 Hero</a>
         </li>
         <li>
           <a href="#about" className="hover:text-white transition">📜 Tome</a>
