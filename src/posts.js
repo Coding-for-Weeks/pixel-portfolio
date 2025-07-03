@@ -10,7 +10,7 @@ const posts = [
 Welcome, traveler. This post marks the beginning of my journey building a fantasy-themed developer portfolio...
 
 *Stay tuned, the incantations are just beginning.*
-    `
+`
   }
   // Add more posts...
 ];
