@@ -5,7 +5,7 @@ const Contact = () => {
   const [status, setStatus] = useState("");
   const [cooldown, setCooldown] = useState(false);
 
-  const webhookURL = "https://discordapp.com/api/webhooks/1390405974086647891/JINyEWekHx8ZlUH2Jt4rAnEMcto8es2YHpEvj7dUU5FvbOv8jEV2AaS9eA9CZanzN-bZ";
+  const webhookURL = process.env.REACT_APP_DISCORD_WEBHOOK;
   const handleChange = (e) => {
     setFormData((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   };
