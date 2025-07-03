@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="section-container bg-gray-950 md:px-12">
+    <div className="section-container bg-gray-950 md:px-12" id="about">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-2xl md:text-4xl text-purple-300 mb-8 border-b-2 border-purple-500 inline-block pb-2">
           📖 Tome of Self

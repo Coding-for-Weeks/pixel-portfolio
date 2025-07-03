@@ -17,7 +17,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <div className="section-container">
+    <div className="section-container" id="projects">
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-3xl text-purple-300 mb-12 border-b-2 border-purple-500 inline-block pb-2">
           🛠️ Scroll of Works
