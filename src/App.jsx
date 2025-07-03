@@ -1,7 +1,9 @@
-import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+
 import BlogHome from "./components/blog/BlogHome";
-import BlogPost from "./components/blog/BlogPost"; // we’ll build this next
+import BlogPost from "./components/blog/BlogPost";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills";
@@ -27,7 +29,7 @@ function ScrollToHash() {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/pixel-portfolio">
       <ScrollToHash />
       <Navbar />
       <Routes>
@@ -35,7 +37,9 @@ function App() {
           path="/"
           element={
             <>
-              <section id="hero" className="pt-20"><Hero /></section>
+              <section id="hero" className="pt-20">
+                <Hero />
+              </section>
               <About />
               <Skills />
               <Projects />
