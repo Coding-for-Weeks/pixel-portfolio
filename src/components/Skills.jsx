@@ -21,7 +21,7 @@ const categories = [
 
 const Skills = () => {
   return (
-    <div className="bg-gray-900 text-white py-20 px-6 font-pixel" id="skills">
+    <div className="section-container" id="skills">
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-3xl text-purple-300 mb-12 border-b-2 border-purple-500 inline-block pb-2">
           🧠 Arcane Disciplines Mastered
