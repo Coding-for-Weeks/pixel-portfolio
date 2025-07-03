@@ -8,17 +8,17 @@ const Navbar = () => {
       <div className="max-w-6xl mx-auto flex justify-center">
         <ul className="flex flex-wrap items-center justify-center gap-6">
           <li>
-            <HashLink smooth to="#hero" className="hover:text-white transition">
+            <HashLink smooth to="/#hero" className="hover:text-white transition">
               🧙 Hero
             </HashLink>
           </li>
           <li>
-            <HashLink smooth to="#about" className="hover:text-white transition">
+            <HashLink smooth to="/#about" className="hover:text-white transition">
               📜 Tome
             </HashLink>
           </li>
           <li>
-            <HashLink smooth to="#projects" className="hover:text-white transition">
+            <HashLink smooth to="/#projects" className="hover:text-white transition">
               🗡 Scroll
             </HashLink>
           </li>
@@ -28,7 +28,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <HashLink smooth to="#contact" className="hover:text-white transition">
+            <HashLink smooth to="/#contact" className="hover:text-white transition">
               ✉️ Contact
             </HashLink>
           </li>
