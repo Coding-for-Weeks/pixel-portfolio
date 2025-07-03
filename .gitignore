@@ -1,0 +1,31 @@
+# Node modules
+node_modules/
+
+# dotenv environment files
+.env
+.env.local
+.env.development
+.env.production
+.env.*.local
+
+# Build output
+dist/
+build/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor configs
+.vscode/
+.idea/
+
+# Optional: lockfiles if not using yarn/npm lock syncing
+package-lock.json
+yarn.lock
+pnpm-lock.yaml

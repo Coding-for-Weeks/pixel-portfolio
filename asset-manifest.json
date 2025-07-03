@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pixel-portfolio/static/css/main.b5d9e804.css",
+    "main.js": "/pixel-portfolio/static/js/main.d37036a6.js",
+    "index.html": "/pixel-portfolio/index.html",
+    "main.b5d9e804.css.map": "/pixel-portfolio/static/css/main.b5d9e804.css.map",
+    "main.d37036a6.js.map": "/pixel-portfolio/static/js/main.d37036a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5d9e804.css",
+    "static/js/main.d37036a6.js"
+  ]
+}
