@@ -54,7 +54,9 @@ const Contact = () => {
           Send a raven (or a message) to reach me.
         </p>
         <form onSubmit={handleSubmit} className="space-y-4">
+          <label htmlFor="name" className="block">Your name</label>
           <input
+            id="name"
             type="text"
             name="name"
             value={formData.name}
@@ -63,7 +65,9 @@ const Contact = () => {
             className="w-full p-2 rounded bg-gray-800 text-white placeholder-gray-500 border border-purple-600"
             required
           />
+          <label htmlFor="email" className="block">Your email</label>
           <input
+            id="email"
             type="email"
             name="email"
             value={formData.email}
@@ -72,7 +76,9 @@ const Contact = () => {
             className="w-full p-2 rounded bg-gray-800 text-white placeholder-gray-500 border border-purple-600"
             required
           />
+          <label htmlFor="message" className="block">Your message</label>
           <textarea
+            id="message"
             name="message"
             rows="4"
             value={formData.message}
