@@ -45,7 +45,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="bg-gray-950 text-white py-20 px-6 font-pixel" id="contact">
+    <div className="section-container bg-gray-950" id="contact">
       <div className="max-w-3xl mx-auto text-center">
         <h2 className="text-3xl text-purple-300 mb-6 border-b-2 border-purple-500 inline-block pb-2">
           ✉️ Summon the Mage
