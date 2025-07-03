@@ -29,7 +29,7 @@ function ScrollToHash() {
 
 function App() {
   return (
-    <Router basename="/pixel-portfolio">
+    <Router>
       <ScrollToHash />
       <Navbar />
       <Routes>
