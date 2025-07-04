@@ -3,7 +3,7 @@ import posts from "../../posts";
 
 export default function BlogHome() {
   return (
-    <div className="min-h-screen bg-gray-900 text-white pt-20"> {/* Add pt-20 */}
+    <div className="min-h-screen bg-gray-900 text-white pt-20">
       <h1 className="text-4xl text-center font-bold mb-8 border-b border-purple-500 pb-2">
       📖 Codex of Echoes
       </h1>
