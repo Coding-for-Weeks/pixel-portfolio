@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/DigitalGrimoire/static/css/main.74dc92ed.css",
-    "main.js": "/DigitalGrimoire/static/js/main.5719eb11.js",
+    "main.js": "/DigitalGrimoire/static/js/main.13dab45a.js",
     "index.html": "/DigitalGrimoire/index.html",
     "main.74dc92ed.css.map": "/DigitalGrimoire/static/css/main.74dc92ed.css.map",
-    "main.5719eb11.js.map": "/DigitalGrimoire/static/js/main.5719eb11.js.map"
+    "main.13dab45a.js.map": "/DigitalGrimoire/static/js/main.13dab45a.js.map"
   },
   "entrypoints": [
     "static/css/main.74dc92ed.css",
-    "static/js/main.5719eb11.js"
+    "static/js/main.13dab45a.js"
   ]
 }
