@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const Contact = () => {
-  const [formData, setFormData] = useState({ name: "", email: "", message: "" });
+  const [formData, setFormData] = useState({ name: "", email: "", message: "", spelltype: "general" });
   const [status, setStatus] = useState("");
   const [cooldown, setCooldown] = useState(false);
 
@@ -15,11 +15,44 @@ const Contact = () => {
     if (cooldown) return;
 
     const payload = {
-      content: `📩 **New Contact Spell Cast!**
-**Name:** ${formData.name}
-**Email:** ${formData.email}
-**Message:** ${formData.message}`
-    };
+  username: "Grimoire Courier 📩",
+  content: "<@691311607736959026>",
+  embeds: [
+    {
+      title: "📜 A New Spell Has Been Cast!",
+      color: 0x6b4c9a,
+      fields: [
+        {
+          name: "🔮 Mage Name",
+          value: formData.name || "Unknown Mage",
+          inline: true
+        },
+        {
+          name: "📧 Arcane Address",
+          value: formData.email 
+          ? `[${formData.email}](mailto:${formData.email})`
+          : "No scroll address given",
+          inline: true
+        },
+        {
+          name: "✨ Spell Type",
+          value: formData.spelltype === "general" ? "✨ General Message" :
+            formData.spelltype === "request" ? "📜 Summon Request" :
+            formData.spelltype === "bug" ? "🐛 Report Arcane Bug" : "Unknown Spell Type",
+          inline: true
+        },
+        {
+          name: "🖋️ Incantation",
+          value: formData.message || "*Silence... no words were spoken.*"
+        }
+      ],
+      timestamp: new Date().toISOString(),
+      footer: {
+        text: "Digital Grimoire - Contact Ritual"
+      }
+    }
+  ]
+};
 
     try {
       const res = await fetch(webhookURL, {
@@ -76,11 +109,24 @@ const Contact = () => {
             className="w-full p-2 rounded bg-gray-800 text-white placeholder-gray-500 border border-purple-600"
             required
           />
+          <label htmlFor="spelltype" className="block">Spell Type</label>
+          <select
+            id="spelltype"
+            name="spelltype"
+            value={formData.spelltype}
+            onChange={handleChange}
+            className="w-full p-2 rounded bg-gray-800 text-white border border-purple-600"
+          >
+            <option value="general">✨ General Message</option>
+            <option value="request">📜 Summon Request</option>
+            <option value="bug">🐛 Report Arcane Bug</option>
+          </select> 
           <label htmlFor="message" className="block">Your message</label>
           <textarea
             id="message"
             name="message"
             rows="4"
+            maxLength={500}
             value={formData.message}
             onChange={handleChange}
             placeholder="Your message"
