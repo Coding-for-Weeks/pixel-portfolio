@@ -10,11 +10,11 @@ A pixel-styled React portfolio site.
 npm install
 ```
 
-2. Create a `.env` file based on `.env.example` and set your Discord webhook URL:
+2. Create a `.env` file and set your Discord webhook URL:
 
 ```bash
-cp .env.example .env
-# Edit .env and set REACT_APP_DISCORD_WEBHOOK
+# .env
+REACT_APP_DISCORD_WEBHOOK="<your-discord-webhook-url>"
 ```
 
 3. Start the development server:
