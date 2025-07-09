@@ -5,14 +5,20 @@ const projects = [
     title: "FableForge",
     tech: ["Python", "SQLite", "Rich CLI"],
     description: "A D&D-style text quest engine with database integration and console UI.",
-    link: "https://github.com/Coding-for-Weeks/FableForge",
+    link: "https://github.com/Nullgrimoire/FableForge",
   },
   {
     title: "DirSleuth",
     tech: ["Go", "CLI", "File System"],
     description: "A terminal-based directory analysis tool to uncover anomalies in file structures.",
-    link: "https://github.com/Coding-for-Weeks/DirSleuth",
+    link: "https://github.com/Nullgrimoire/DirSleuth",
   },
+  {
+  title: "Pokedex Lookup",
+  tech: ["Python", "CLI", "Rich"],
+  description: "A command-line Pokédex viewer with evolution chains, type data, and styled output using Rich.",
+  link: "https://github.com/Nullgrimoire/Pokedex-lookup",
+  }
 ];
 
 export default function Projects() {
