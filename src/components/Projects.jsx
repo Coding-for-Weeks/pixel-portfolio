@@ -18,6 +18,12 @@ const projects = [
   tech: ["Python", "CLI", "Rich"],
   description: "A command-line Pokédex viewer with evolution chains, type data, and styled output using Rich.",
   link: "https://github.com/Nullgrimoire/Pokedex-lookup",
+  },
+  {
+  title: "Dark Market",
+  tech: ["Python", "Pygame", "JSON", "Modular Architecture"],
+  description: "A fantasy stock trading simulator with dynamic pricing, inventory management, and procedural shop events.",
+  link: "https://github.com/Nullgrimoire/Dark-Market",
   }
 ];
 
