@@ -50,8 +50,92 @@ The grimoire grows.
 
 — **Nullgrimoire**
 `
+},
+{
+  slug: "independence-in-the-terminal",
+  title: "Independence in the Terminal",
+  date: "2025-07-04",
+  description: "On this July 4th, I reflect on a deeper kind of freedom — control over my digital tools.",
+  content: `
+## Independence in the Terminal
+
+*“True independence is knowing your own system.”*
+
+While fireworks light the sky, I’m running system updates and pushing commits. There's something empowering about mastering your workflow, crafting your environment, and escaping the noise.
+
+Command line. Config files. Crontabs. My freedom doesn’t wave a flag — it blinks a cursor.
+
+Celebrate your wins, even if they're in the terminal.
+`
+},
+{
+  slug: "why-i-build-after-midnight",
+  title: "Why I Build After Midnight",
+  date: "2025-07-05",
+  description: "There’s something sacred about late-night coding. Here’s why it works for me.",
+  content: `
+## Why I Build After Midnight
+
+The world sleeps. My mind doesn’t.
+
+Post-midnight is when ideas flow freely. No interruptions. Just me, VS Code, and caffeine. Last night I finished polishing a module and started sketching out the next.
+
+Magic happens when you’re in the dark — just ask any mage.
+`
+},
+{
+  slug: "scroll-updates-and-sigil-tweaks",
+  title: "Scroll Updates and Sigil Tweaks",
+  date: "2025-07-06",
+  description: "A few aesthetic and UX updates to the Grimoire. Progress is progress.",
+  content: `
+## Scroll Updates and Sigil Tweaks
+
+This weekend I touched up the Scroll of Works and tweaked the footer sigils.
+
+- ✨ Smoother hover states
+- 📜 Cleaned up old spell links
+- 🧩 Better mobile scroll animations
+
+Small changes, but they help keep the grimoire polished. Every pixel matters.
+`
+},
+{
+  slug: "pokedex-cli-build-log",
+  title: "Pokédex CLI: Build Log",
+  date: "2025-07-07",
+  description: "Teamed up with a friend to build a command-line Pokédex. Gotta debug 'em all.",
+  content: `
+## Pokédex CLI: Build Log
+
+Today was a blast — teamed up with a friend to summon a new CLI project: a Pokédex lookup tool written in Python.
+
+We worked on:
+- 🔍 Searching Pokémon by name, type, or generation
+- 📦 Converting CSV/HTML data into clean JSON
+- 🧬 Implementing evolution chains
+- 📁 Splitting out generations into separate files
+
+Also added a fun little feature: merging Type1 and Type2 into a single "Type: X/Y" format. It’s clean, fast, and satisfying to use.
+
+More polish to come, but we’re on track to catch 'em all — one line at a time.
+`
+},
+{
+  slug: "summon-the-terminal",
+  title: "Summon the Terminal, the Tome Awaits",
+  date: "2025-07-08",
+  description: "Contact form is live. Let the scrolls fly.",
+  content: `
+## Summon the Terminal, the Tome Awaits
+
+The contact form — or “Summon the Mage” portal — is finally live.
+
+It’s always wild to watch users cast the first spell (aka send a message). It means someone out there saw the site and thought, “I want to reach out.”
+
+That’s a kind of magic I’ll never stop appreciating.
+`
 }
-  // Add more posts...
 ];
 
 export default posts;
