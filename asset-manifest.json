@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/DigitalGrimoire/static/css/main.43a3a983.css",
-    "main.js": "/DigitalGrimoire/static/js/main.269f6e88.js",
+    "main.css": "/DigitalGrimoire/static/css/main.1a71a8e9.css",
+    "main.js": "/DigitalGrimoire/static/js/main.80019926.js",
     "index.html": "/DigitalGrimoire/index.html",
-    "main.43a3a983.css.map": "/DigitalGrimoire/static/css/main.43a3a983.css.map",
-    "main.269f6e88.js.map": "/DigitalGrimoire/static/js/main.269f6e88.js.map"
+    "main.1a71a8e9.css.map": "/DigitalGrimoire/static/css/main.1a71a8e9.css.map",
+    "main.80019926.js.map": "/DigitalGrimoire/static/js/main.80019926.js.map"
   },
   "entrypoints": [
-    "static/css/main.43a3a983.css",
-    "static/js/main.269f6e88.js"
+    "static/css/main.1a71a8e9.css",
+    "static/js/main.80019926.js"
   ]
 }
