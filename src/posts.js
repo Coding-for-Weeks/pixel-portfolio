@@ -15,9 +15,9 @@ This blog is a chronicle of my journey as a software developer, cybersecurity as
 
 What you’ll find in this grimoire:
 
-- ⚔️ Indie dev logs from *FableForge*  
-- 🔐 OSCP and hacking notes from the trenches  
-- 📜 Spell scrolls (tutorials, reflections, failures, wins)  
+- ⚔️ Indie dev logs from *FableForge*
+- 🔐 OSCP and hacking notes from the trenches
+- 📜 Spell scrolls (tutorials, reflections, failures, wins)
 - 🧠 Thoughts on the magic behind systems and software
 
 So sharpen your mind like a blade, open the tome, and let the rituals begin.
@@ -35,7 +35,7 @@ So sharpen your mind like a blade, open the tome, and let the rituals begin.
 
 *“Today, I gazed into the old code—and the old code gazed back.”*
 
-The goal was simple: breathe structure into *FableForge*'s growing quest system.  
+The goal was simple: breathe structure into *FableForge*'s growing quest system.
 Scenes like \`intro\`, \`encounter\`, and \`puzzle\` had grown too tangled—one monolithic file ruled them all.
 
 So I shattered it.
@@ -157,6 +157,55 @@ Elsewhere in the ether, I drafted a new construct: **TSMngr**, a ticket system m
 No grand breakthroughs today. Just sharpening the edges. Whispering to the code. Preparing for deeper magic.
 
 — **Nullgrimoire**
+`
+},
+{
+  "slug": "log-of-shadows-2025-07-10",
+  "title": "Log of Shadows — July 10, 2025",
+  "date": "2025-07-10",
+  "description": "TSMngr awakens with CLI incantations, GitHub rituals, and SQLite-bound tomes. The forge burns hotter.",
+  "content": `
+## Log of Shadows — July 10, 2025
+\`v1.1.0-alpha :: Shadows Cast in Steel\`
+
+**“Structure is the skeleton of purpose.”**
+
+Today I forged a new layer into the black iron of \`TSMngr\`. While most mortals see command-line tools as mere convenience, I see mine as ritual. And now, it responds to *invocations*—arguments carved in runes (CLI subcommands).
+
+---
+
+### 🛠️ Updates Bound in Steel
+
+- **CLI Mode**: \`create\`, \`list\`, and \`show\` commands now summon, display, or reveal ticket knowledge from SQLite.
+- **SQLite Integration Improved**: The grimoires (tickets, logs, users) now awaken via a unified DB connection helper.
+- **Release Build Workflow**: GitHub Actions now forges binaries on \`tag\` push. Users may now *summon* releases directly.
+- **Version Bump**: The artifact now wears the mark of \`v1.1.0-alpha\`.
+
+---
+
+### 🔮 Reflections from the Void
+
+The goal remains unwavering: to build a tool businesses can wield. But usability is key. Not everyone is a mage. Sometimes they just need a torch in the dark.
+
+> **Next ritual:** Implementing an internal \`log\` system that traces each invocation, each change. Audit trails in the arcane.
+
+---
+
+### ⌛ Incantation Time
+
+| Feature            | Status     | Time Invested |
+|--------------------|------------|----------------|
+| CLI Command Layer  | ✅ Done    | ~2 hours       |
+| SQLite Refactor    | ✅ Done    | ~1.5 hours     |
+| GitHub Actions     | ✅ Done    | ~1 hour        |
+| Docs/README        | 🕗 Partial | ~30 min        |
+
+---
+
+To fellow shadow-smiths:
+You don’t need a thousand users. You need one who *needs* your tool. Then, craft for them. Perfect for them. The rest will follow.
+
+— **Nullgrimoire** 🕯️🖋️
 `
 }
 ];
